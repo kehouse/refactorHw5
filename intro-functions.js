@@ -133,6 +133,9 @@ console.assert(reverse("we don't want no trouble") === "elbuort on tnaw t'nod ew
  * i.e. findLongestWord("book dogs") should return "book"
  */
 
+ //not sure if I fully understand this one, but I am really close
+ //it counts the ' in don't right now, and not sure how to fix that
+
 function findLongestWord(sentence){
     // YOUR CODE HERE
     var str = sentence.split(" ");
